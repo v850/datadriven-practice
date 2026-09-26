@@ -5,9 +5,10 @@ WITH cte AS(SELECT DISTINCT endpoint FROM api_calls UNION SELECT DISTINCT b.endp
 SELECT 
    CASE WHEN SUBSTR(endpoint,  1,  12) = '/api/v1/auth' THEN '/api/v1/auth' 
 WHEN SUBSTR(endpoint,1,12) = '/api/v2/auth' THEN '/api/v2/auth' else endpoint end as endpoint,
- Case when
-SUBSTR(endpoint, 1,  12) = '/api/v1/auth' THEN 'apiv1auth' 
-WHEN SUBSTR(endpoint,1,12) = '/api/v2/auth' THEN 'apiv2auth'
+ Case
+ -- when
+-- SUBSTR(endpoint, 1,  12) = '/api/v1/auth' THEN 'apiv1auth' 
+-- WHEN SUBSTR(endpoint,1,12) = '/api/v2/auth' THEN 'apiv2auth'
 WHEN SUBSTR(endpoint,1,8) = '/api/v1/' THEN concat('v1',replace(endpoint,'/api/v1/',''))
  WHEN SUBSTR(endpoint,1,8) = '/api/v2/' THEN concat('v2',replace(endpoint,'/api/v2/','')) 
  end AS api1

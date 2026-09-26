@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/solid_goose_1155), committ
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Regulars](./practice/sql/the-regulars) | SQL | Hard | 2026-09-26 |
 | [All Known Endpoints](./practice/sql/all-known-endpoints) | SQL | Medium | 2026-09-26 |
 | [Best Day for Ad Revenue](./practice/sql/best-day-for-ad-revenue) | SQL | Medium | 2026-09-25 |
 | [Returning Buyers](./practice/sql/returning-buyers) | SQL | Medium | 2026-09-25 |

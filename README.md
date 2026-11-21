@@ -1,6 +1,6 @@
 # solid_goose_1155's data engineering practice
 
-Scored work from [DataDriven](https://datadriven.io/u/solid_goose_1155), committed here as it is scored. Each folder holds the code exactly as submitted and the report it earned.
+Scored work from [DataDriven](https://datadriven.io/u/solid_goose_1155), committed here as it is scored. Each folder holds the work exactly as submitted and the report it earned.
 
 <!-- datadriven:index:start -->
 
@@ -12,7 +12,7 @@ Scored work from [DataDriven](https://datadriven.io/u/solid_goose_1155), committ
 | [All Known Endpoints](./practice/sql/all-known-endpoints) | SQL | Medium | 2026-09-26 |
 | [Best Day for Ad Revenue](./practice/sql/best-day-for-ad-revenue) | SQL | Medium | 2026-09-25 |
 | [Returning Buyers](./practice/sql/returning-buyers) | SQL | Medium | 2026-09-25 |
-| [10 Lowest Uptime Services](./practice/sql/10-lowest-uptime-services) | SQL | Medium | 2026-09-09 |
+| [10 Lowest Uptime Services](./practice/sql/10-lowest-uptime-services) | SQL | Easy | 2026-09-09 |
 
 <!-- datadriven:index:end -->
 
